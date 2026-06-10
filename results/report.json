@@ -1,0 +1,98 @@
+{
+  "project": "Chronis Task A - Behavioral Insight Engine",
+  "dataset_summary": {
+    "rows": 150,
+    "users": 5,
+    "start_date": "2026-01-01",
+    "end_date": "2026-01-30",
+    "metrics_used": [
+      "steps",
+      "sleep_hours",
+      "screen_time_hours",
+      "deep_work_hours",
+      "exercise_minutes"
+    ]
+  },
+  "insights": [
+    {
+      "user_id": "U1",
+      "type": "pattern",
+      "domain": "Exercise",
+      "insight": "Exercise declined in the recent period.",
+      "interpretation": "negative change",
+      "confidence": 0.76,
+      "evidence": "Average exercise_minutes changed from 45.57 minutes to 34.86 minutes.",
+      "change_percentage": -23.51
+    },
+    {
+      "user_id": "U2",
+      "type": "pattern",
+      "domain": "Physical Activity",
+      "insight": "Physical Activity increased in the recent period.",
+      "interpretation": "positive change",
+      "confidence": 0.72,
+      "evidence": "Average steps changed from 7982.14 steps to 9402.57 steps.",
+      "change_percentage": 17.8
+    },
+    {
+      "user_id": "U2",
+      "type": "pattern",
+      "domain": "Deep Work",
+      "insight": "Deep Work declined in the recent period.",
+      "interpretation": "negative change",
+      "confidence": 0.81,
+      "evidence": "Average deep_work_hours changed from 3.89 hours to 2.70 hours.",
+      "change_percentage": -30.51
+    },
+    {
+      "user_id": "U3",
+      "type": "pattern",
+      "domain": "Deep Work",
+      "insight": "Deep Work declined in the recent period.",
+      "interpretation": "negative change",
+      "confidence": 0.8,
+      "evidence": "Average deep_work_hours changed from 2.91 hours to 2.10 hours.",
+      "change_percentage": -27.94
+    },
+    {
+      "user_id": "U4",
+      "type": "pattern",
+      "domain": "Physical Activity",
+      "insight": "Physical Activity increased in the recent period.",
+      "interpretation": "positive change",
+      "confidence": 0.83,
+      "evidence": "Average steps changed from 7312.00 steps to 9763.86 steps.",
+      "change_percentage": 33.53
+    },
+    {
+      "user_id": "U4",
+      "type": "pattern",
+      "domain": "Deep Work",
+      "insight": "Deep Work declined in the recent period.",
+      "interpretation": "negative change",
+      "confidence": 0.95,
+      "evidence": "Average deep_work_hours changed from 4.34 hours to 1.93 hours.",
+      "change_percentage": -55.59
+    },
+    {
+      "user_id": "U4",
+      "type": "pattern",
+      "domain": "Exercise",
+      "insight": "Exercise declined in the recent period.",
+      "interpretation": "negative change",
+      "confidence": 0.8,
+      "evidence": "Average exercise_minutes changed from 46.43 minutes to 33.14 minutes.",
+      "change_percentage": -28.62
+    },
+    {
+      "user_id": "U5",
+      "type": "pattern",
+      "domain": "Screen Time",
+      "insight": "Screen Time declined in the recent period.",
+      "interpretation": "positive change",
+      "confidence": 0.71,
+      "evidence": "Average screen_time_hours changed from 6.37 hours to 5.41 hours.",
+      "change_percentage": -15.02
+    }
+  ]
+}
